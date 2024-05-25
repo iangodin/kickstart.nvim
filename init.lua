@@ -178,10 +178,13 @@ require('lazy').setup({
     end,
   },
 
-  { 'catppuccin/nvim', name = 'catppuccin', priority = 1000,
+  {
+    'catppuccin/nvim',
+    name = 'catppuccin',
+    priority = 1000,
     init = function()
       -- Set colorscheme after options
-      vim.cmd 'colorscheme catppuccin'
+      -- vim.cmd 'colorscheme catppuccin'
     end,
   },
 
