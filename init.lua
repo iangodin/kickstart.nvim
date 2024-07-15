@@ -873,5 +873,13 @@ require('lazy').setup({
   },
 })
 
+CleanDisplay = function()
+  vim.cmd 'set nolist'
+  vim.cmd 'set nonumber'
+  vim.cmd 'set norelativenumber'
+  vim.cmd 'set signcolumn=no'
+  vim.diagnostic.hide()
+end
+
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
