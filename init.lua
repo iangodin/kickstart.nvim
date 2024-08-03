@@ -184,7 +184,7 @@ require('lazy').setup({
     priority = 1000,
     init = function()
       -- Set colorscheme after options
-      -- vim.cmd 'colorscheme catppuccin'
+      vim.cmd 'colorscheme catppuccin'
     end,
   },
 
